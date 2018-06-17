@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "The Struggle *isn't* Real... Yet?"
-date:       2018-06-17 21:26:54 +0000
+title:      "CSS: The Struggle *isn't* Real... Yet?"
+date:       2018-06-17 17:26:55 -0400
 permalink:  the_struggle_isnt_real_yet
 ---
 
