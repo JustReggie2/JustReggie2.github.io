@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: Randomly Specific Words
 header-img: img/home-bg.png
 email: reginaldcarterii@gmail.com
 copyright_name: JustReggie2
 description: > # this means to ignore newlines until "baseurl:"
-  
+  The Words
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  JustReggie2
