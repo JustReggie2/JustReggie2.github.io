@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "A Work in Progress... CLI Gem Project"
-date:       2018-08-27 23:04:35 +0000
+date:       2018-08-27 19:04:36 -0400
 permalink:  a_work_in_progress_cli_gem_project
 ---
 
@@ -26,7 +26,7 @@ Once I got a basic CLI working, I moved on to scraping the IMDB page. There were
 
 Once i had my scraper class working, things just started flowing together. Added more to my CLI file to have it print out what I wanted which was the list of movie titles. Once that list printed, you could select one by corresponding number and it would then print out: movie title, year, director, genre, brief summary and the link to the trailer. 
 
-One of the hardest parts was getting my second scrape of the individual movie's page to line up with my movie objects that were already created. the movie objects were being initialized with the title, trailer url and the url to the individual movie's page. To add that info from the movie url, I had to create a doc method and methods for each of the elements i wanted to scrape. The doc method had an instance variable set equal to Nokogiri and Open-Uri pulling on the self of the movie url. All the other methods were also instance variables set equal to the scraping code to find those items. I then have a find method that when invoked in my CLI class will pull the specific movie info. Probably not explaining in the best way but it works. Had to add the find method. At first I didn't have a find method so it was randomly pulling info. I would have the movie Meg but the summary for Crazy Rich Asians. That was blowing my mind for a bit. 
+One of the hardest parts was getting my second scrape of the individual movie's page to line up with my movie objects that were already created. the movie objects were being initialized with the title, trailer url and the url to the individual movie's page. To add that info from the movie url, I had to create a doc method and methods for each of the elements I wanted to scrape. The doc method had an instance variable set equal to Nokogiri and Open-Uri pulling on the self of the movie url. All the other methods were also instance variables set equal to the scraping code to find those items. Then I have a find method that when invoked in my CLI class will pull the specific movie info. Probably not explaining in the best way but it works. Had to add the find method. At first I didn't have a find method so it was randomly pulling info. I would have the movie Meg but the summary for Crazy Rich Asians. That was blowing my mind for a bit. 
 
 Now that it was fixed, the project was basically done. I attempted to refractor some of the code and cleaned it up a bit to look nice and uniform. Just have to put some final touches in README.md and gemspec file and I believe I'm done. 
 
