@@ -10,7 +10,7 @@ So for the longest time I was pronoucing SQL (Structured Query Language) as the 
 
 Any-hoot, I was just going to share a small tidbit on what has helped me get through the SQL sections in the Learn.co cirriculum. There was one main item that continually helped me through the majority of the labs... A Data Base Browser! 
 
-There are plenty of free and pay ones out there but I fell on DB Browser for SQLite. You can find at: [https://sqlitebrowser.org/ ](http://)
+There are plenty of free and pay ones out there but I fell on DB Browser for SQLite. You can find at: [https://sqlitebrowser.org/ ](http://sqlitebrowser.org/ )
 
 The cool thing with using a DB browser is you can import or copy/paste the data file  from the labs into the browser. Then you have the ability to play around with your queries before you write it out in the labs. This was so helpful to me during those sections. 
 
