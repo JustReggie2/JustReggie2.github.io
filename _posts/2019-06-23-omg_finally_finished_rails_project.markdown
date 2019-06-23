@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "OMG... Finally Finished Rails Project!"
-date:       2019-06-23 16:34:22 +0000
+date:       2019-06-23 12:34:23 -0400
 permalink:  omg_finally_finished_rails_project
 ---
 
@@ -20,7 +20,7 @@ Now I have reached the second hurdle which was good ole Scope. I know why I had 
 
 All in all, though being my own toughest critic, I have checked all the boxes and am at a point of submittal. Yes, there is plently more I'd love to do to this and most likely will but it will have to wait because this guy is stepping away for at least a good weekend. 
 
-If you like, you can check my repo [here](https://github.com/JustReggie2/cura10).
+If you like, you can check my repo [here](http://github.com/JustReggie2/cura10).
 
 Special shoutout to: Mariam, Kev, and Dwayne! The support was very much appreciated. 
 
